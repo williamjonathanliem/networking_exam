@@ -343,7 +343,6 @@ hr.sep{
         <div class="tagrow">
           <span class="tag"><strong id="qCounter">Question 1</strong> of <span id="qTotal">50</span></span>
           <span class="tag">Answered <strong id="answeredCount">0</strong>/50</span>
-          <span class="tag">Score <strong id="scoreLive">0</strong>/50</span>
         </div>
         <div class="actions">
           <button id="btnStart" class="primary" onclick="startExam()">Start exam</button>
@@ -454,6 +453,8 @@ function updateCounters(){
   const answered = answers.filter(v => v !== null).length;
   $("answeredCount").innerText = answered.toString();
 
+  const score = computeScore();
+  $("scoreLive").innerText = score.toString();
 
   if (!started) $("statusText").innerText = "Status: Not started";
   else if (submitted) $("statusText").innerText = "Status: Submitted (locked)";
