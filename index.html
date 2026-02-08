@@ -441,7 +441,6 @@ function computeScore(){
   for (let i = 0; i < EXAM_SIZE; i++){
     if (answers[i] !== null && answers[i] === exam[i].answer) correct++;
   }
-  $("scoreLive").innerText = correct.toString();
   return correct;
 }
 
@@ -452,9 +451,6 @@ function updateCounters(){
 
   const answered = answers.filter(v => v !== null).length;
   $("answeredCount").innerText = answered.toString();
-
-  const score = computeScore();
-  $("scoreLive").innerText = score.toString();
 
   if (!started) $("statusText").innerText = "Status: Not started";
   else if (submitted) $("statusText").innerText = "Status: Submitted (locked)";
@@ -469,10 +465,8 @@ function renderNav(){
     const btn = document.createElement("div");
     btn.className = "navbtn";
 
-    // current highlight
     if (i === index) btn.classList.add("current");
 
-    // status colors
     const isAnswered = answers[i] !== null;
     if (!submitted){
       btn.classList.add(isAnswered ? "answered" : "unanswered");
@@ -613,7 +607,7 @@ fetch("questions.json")
   .then(data => {
     bank = Array.isArray(data) ? data : [];
     $("qText").textContent = `Loaded question bank: ${bank.length} questions. Click Start exam to begin.`;
-    renderNav(); // show blank nav even before start
+    renderNav();
   })
   .catch(() => {
     $("qText").textContent =
