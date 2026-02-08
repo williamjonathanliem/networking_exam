@@ -1,276 +1,161 @@
 [
   {
-    "question": "What is the main purpose of a computer network?",
+    "question": "Which best describes a computer network?",
     "options": [
-      "To share resources and enable communication",
-      "To increase cost",
-      "To remove servers",
-      "To reduce performance"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which device forwards frames using MAC addresses?",
-    "options": [
-      "Router",
-      "Switch",
-      "Firewall",
-      "Modem"
+      "A group of standalone computers",
+      "Devices connected to share data and resources",
+      "A collection of servers only",
+      "A system used only for internet access"
     ],
     "answer": 1
   },
   {
-    "question": "Which device forwards packets using IP addresses?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
+    "question": "Which device is primarily used to connect multiple devices in the same LAN?",
+    "options": ["Router", "Switch", "Modem", "Firewall"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI model layer is responsible for transmitting raw bits over a medium?",
+    "options": ["Data Link", "Physical", "Network", "Transport"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer provides end-to-end communication between hosts?",
+    "options": ["Session", "Transport", "Network", "Presentation"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for logical addressing such as IP addresses?",
+    "options": ["Data Link", "Network", "Transport", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer formats data for application use?",
+    "options": ["Session", "Presentation", "Application", "Transport"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer establishes, manages, and terminates communication sessions?",
+    "options": ["Presentation", "Session", "Transport", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol model is composed of four layers?",
+    "options": ["OSI", "TCP/IP", "Hybrid", "Peer-to-peer"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to convert domain names into IP addresses?",
+    "options": ["FTP", "DNS", "SMTP", "ARP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol automatically assigns IP configuration to hosts?",
+    "options": ["ARP", "DNS", "DHCP", "ICMP"],
     "answer": 2
   },
   {
-    "question": "Which OSI layer is responsible for logical addressing?",
-    "options": [
-      "Data Link",
-      "Network",
-      "Transport",
-      "Session"
-    ],
+    "question": "Which protocol is used to map IP addresses to MAC addresses?",
+    "options": ["DNS", "ARP", "DHCP", "FTP"],
     "answer": 1
   },
   {
-    "question": "Which OSI layer handles bit transmission?",
-    "options": [
-      "Physical",
-      "Data Link",
-      "Network",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which OSI layer ensures reliable delivery?",
-    "options": [
-      "Session",
-      "Transport",
-      "Network",
-      "Physical"
-    ],
+    "question": "Which protocol provides reliable, ordered delivery of data?",
+    "options": ["UDP", "TCP", "ICMP", "ARP"],
     "answer": 1
   },
   {
-    "question": "Which OSI layer provides services directly to applications?",
-    "options": [
-      "Application",
-      "Presentation",
-      "Session",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which protocol translates domain names to IP addresses?",
-    "options": [
-      "FTP",
-      "DNS",
-      "SMTP",
-      "HTTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol dynamically assigns IP addresses?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "DHCP",
-      "DNS"
-    ],
+    "question": "Which protocol does NOT guarantee delivery?",
+    "options": ["TCP", "FTP", "UDP", "SMTP"],
     "answer": 2
   },
   {
-    "question": "Which protocol resolves IP addresses to MAC addresses?",
-    "options": [
-      "DNS",
-      "ARP",
-      "DHCP",
-      "ICMP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol is connection-oriented?",
-    "options": [
-      "UDP",
-      "ICMP",
-      "TCP",
-      "ARP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is connectionless?",
-    "options": [
-      "TCP",
-      "FTP",
-      "UDP",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Transport layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Network layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which PDU is used at the Data Link layer?",
-    "options": [
-      "Bit",
-      "Frame",
-      "Packet",
-      "Segment"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device operates at Layer 1?",
-    "options": [
-      "Switch",
-      "Hub",
-      "Router",
-      "Firewall"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which network topology uses a central device?",
-    "options": [
-      "Bus",
-      "Ring",
-      "Star",
-      "Mesh"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which topology provides the highest redundancy?",
-    "options": [
-      "Star",
-      "Bus",
-      "Ring",
-      "Mesh"
-    ],
+    "question": "Which PDU is associated with the Transport layer?",
+    "options": ["Bit", "Frame", "Packet", "Segment"],
     "answer": 3
   },
   {
-    "question": "Which topology is least expensive to implement?",
-    "options": [
-      "Mesh",
-      "Star",
-      "Bus",
-      "Hybrid"
-    ],
+    "question": "Which PDU is associated with the Network layer?",
+    "options": ["Segment", "Frame", "Packet", "Bit"],
     "answer": 2
   },
   {
-    "question": "What is the function of encapsulation?",
+    "question": "Which PDU is associated with the Data Link layer?",
+    "options": ["Bit", "Frame", "Packet", "Segment"],
+    "answer": 1
+  },
+  {
+    "question": "Which network device uses MAC address tables to forward traffic?",
+    "options": ["Router", "Switch", "Hub", "Firewall"],
+    "answer": 1
+  },
+  {
+    "question": "Which device operates at both the Physical and Data Link layers?",
+    "options": ["Router", "Switch", "Hub", "Firewall"],
+    "answer": 2
+  },
+  {
+    "question": "Which device separates different broadcast domains?",
+    "options": ["Hub", "Switch", "Router", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which topology uses a single backbone cable?",
+    "options": ["Star", "Ring", "Bus", "Mesh"],
+    "answer": 2
+  },
+  {
+    "question": "Which topology connects all devices to a central point?",
+    "options": ["Bus", "Ring", "Star", "Mesh"],
+    "answer": 2
+  },
+  {
+    "question": "Which topology provides the highest fault tolerance?",
+    "options": ["Bus", "Star", "Ring", "Mesh"],
+    "answer": 3
+  },
+  {
+    "question": "What is the primary role of encapsulation?",
     "options": [
       "Encrypt data",
       "Compress data",
-      "Wrap data with headers",
-      "Route packets"
+      "Add protocol information",
+      "Filter traffic"
     ],
     "answer": 2
   },
   {
-    "question": "Which address is burned into a NIC?",
-    "options": [
-      "IP address",
-      "MAC address",
-      "Subnet mask",
-      "Gateway"
-    ],
+    "question": "What type of address uniquely identifies a network interface card?",
+    "options": ["IP address", "MAC address", "Subnet mask", "Gateway"],
     "answer": 1
   },
   {
-    "question": "How many bits are in an IPv4 address?",
-    "options": [
-      "16",
-      "32",
-      "64",
-      "128"
-    ],
+    "question": "How many bits are used in an IPv4 address?",
+    "options": ["16", "32", "64", "128"],
     "answer": 1
   },
   {
-    "question": "Which IPv4 class provides the largest number of hosts?",
-    "options": [
-      "Class A",
-      "Class B",
-      "Class C",
-      "Class D"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which IPv4 address is private?",
-    "options": [
-      "8.8.8.8",
-      "192.168.1.1",
-      "1.1.1.1",
-      "54.23.10.5"
-    ],
+    "question": "Which IPv4 address range is private?",
+    "options": ["1.0.0.0", "172.16.0.0", "8.8.8.8", "54.10.5.2"],
     "answer": 1
   },
   {
-    "question": "Which address identifies a network?",
-    "options": [
-      "Host address",
-      "Broadcast address",
-      "Network address",
-      "MAC address"
-    ],
+    "question": "Which address is used to send data to all hosts on a network?",
+    "options": ["Unicast", "Multicast", "Broadcast", "Anycast"],
     "answer": 2
   },
   {
-    "question": "Which address sends data to all hosts on a network?",
-    "options": [
-      "Unicast",
-      "Multicast",
-      "Broadcast",
-      "Anycast"
-    ],
+    "question": "Which protocol is used to test connectivity between two devices?",
+    "options": ["ipconfig", "netstat", "ping", "arp"],
     "answer": 2
   },
   {
-    "question": "Which protocol reports network errors?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "FTP",
-      "DNS"
-    ],
-    "answer": 1
+    "question": "Which protocol is used to report network errors?",
+    "options": ["FTP", "ARP", "ICMP", "DNS"],
+    "answer": 2
   },
   {
-    "question": "Which command saves the router configuration?",
+    "question": "Which Cisco command saves the running configuration permanently?",
     "options": [
       "reload",
       "write erase",
@@ -280,1723 +165,605 @@
     "answer": 2
   },
   {
-    "question": "Which command displays the IP configuration?",
+    "question": "Which command displays the routing table on a router?",
     "options": [
-      "show version",
       "show ip route",
-      "ipconfig",
-      "show running-config"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which device breaks collision domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Repeater",
-      "Bridge"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device breaks broadcast domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What does CSMA/CD stand for?",
-    "options": [
-      "Carrier Sense Multiple Access with Collision Detection",
-      "Central Switching Media Access Control",
-      "Collision Sensitive Media Access Control",
-      "Carrier Switching Multiple Access"
+      "show interfaces",
+      "show arp",
+      "show version"
     ],
     "answer": 0
   },
   {
-    "question": "Which Ethernet standard operates at 100 Mbps?",
-    "options": [
-      "10BASE-T",
-      "100BASE-T",
-      "1000BASE-T",
-      "10GBASE-T"
-    ],
-    "answer": 1
+    "question": "Which Ethernet access method detects collisions?",
+    "options": ["CSMA/CD", "CSMA/CA", "Token Passing", "Polling"],
+    "answer": 0
   },
   {
-    "question": "Which cable type is used for LAN connections?",
-    "options": [
-      "Coaxial",
-      "Fiber",
-      "UTP",
-      "Serial"
-    ],
+    "question": "Which cable type is most commonly used in LANs?",
+    "options": ["Coaxial", "Fiber optic", "UTP", "Serial"],
     "answer": 2
   },
   {
-    "question": "Which connector is commonly used with UTP cables?",
-    "options": [
-      "RJ-11",
-      "RJ-45",
-      "BNC",
-      "SC"
-    ],
+    "question": "Which connector is used with UTP cables?",
+    "options": ["RJ-11", "RJ-45", "BNC", "SC"],
     "answer": 1
   },
   {
-    "question": "Which layer is responsible for encryption?",
-    "options": [
-      "Session",
-      "Presentation",
-      "Application",
-      "Transport"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which layer manages sessions between hosts?",
-    "options": [
-      "Presentation",
-      "Session",
-      "Transport",
-      "Network"
-    ],
-    "answer": 1
+    "question": "Which layer is responsible for data encryption?",
+    "options": ["Application", "Session", "Presentation", "Transport"],
+    "answer": 2
   },
   {
     "question": "Which protocol uses port 80 by default?",
-    "options": [
-      "FTP",
-      "HTTP",
-      "SMTP",
-      "DNS"
-    ],
+    "options": ["FTP", "HTTP", "SMTP", "DNS"],
     "answer": 1
   },
   {
     "question": "Which protocol uses port 443 by default?",
-    "options": [
-      "HTTP",
-      "FTP",
-      "HTTPS",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is used to send email?",
-    "options": [
-      "POP3",
-      "SMTP",
-      "IMAP",
-      "FTP"
-    ],
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
     "answer": 1
   },
   {
-    "question": "Which protocol retrieves email from a server?",
-    "options": [
-      "SMTP",
-      "FTP",
-      "POP3",
-      "HTTP"
-    ],
+    "question": "Which protocol is used to send email between servers?",
+    "options": ["POP3", "IMAP", "SMTP", "FTP"],
     "answer": 2
   },
   {
-    "question": "Which protocol allows secure remote login?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "HTTP"
-    ],
+    "question": "Which protocol is used to retrieve email from a server?",
+    "options": ["SMTP", "POP3", "FTP", "HTTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol provides secure remote login?",
+    "options": ["Telnet", "SSH", "FTP", "HTTP"],
     "answer": 1
   },
   {
     "question": "Which protocol uses port 22?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "SMTP"
-    ],
+    "options": ["FTP", "SSH", "SMTP", "Telnet"],
     "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 21?",
-    "options": [
-      "FTP",
-      "SMTP",
-      "HTTP",
-      "DNS"
-    ],
-    "answer": 0
   },
   {
     "question": "Which IPv6 address length is correct?",
-    "options": [
-      "32 bits",
-      "64 bits",
-      "128 bits",
-      "256 bits"
-    ],
+    "options": ["32 bits", "64 bits", "128 bits", "256 bits"],
     "answer": 2
   },
   {
-    "question": "Which IPv6 address type is equivalent to IPv4 private?",
-    "options": [
-      "Global",
-      "Multicast",
-      "Link-local",
-      "Anycast"
-    ],
+    "question": "Which IPv6 address type is automatically assigned on a local link?",
+    "options": ["Global", "Multicast", "Link-local", "Anycast"],
     "answer": 2
   },
   {
-    "question": "Which command tests connectivity between devices?",
-    "options": [
-      "ping",
-      "ipconfig",
-      "netstat",
-      "tracert"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which command shows routing table?",
-    "options": [
-      "show ip route",
-      "show version",
-      "show arp",
-      "show interfaces"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which device filters traffic based on rules?",
-    "options": [
-      "Switch",
-      "Router",
-      "Firewall",
-      "Hub"
-    ],
+    "question": "Which device is designed to block unauthorized network access?",
+    "options": ["Switch", "Router", "Firewall", "Hub"],
     "answer": 2
   },
   {
-    "question": "What is the main purpose of a firewall?",
-    "options": [
-      "Speed up traffic",
-      "Block unauthorized access",
-      "Assign IPs",
-      "Encrypt cables"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which attack floods a network with traffic?",
-    "options": [
-      "Phishing",
-      "DoS",
-      "Spoofing",
-      "Sniffing"
-    ],
-    "answer": 1
+    "question": "Which attack attempts to overwhelm a network with traffic?",
+    "options": ["Phishing", "Spoofing", "DoS", "Sniffing"],
+    "answer": 2
   },
   {
     "question": "Which malware disguises itself as legitimate software?",
-    "options": [
-      "Virus",
-      "Worm",
-      "Trojan",
-      "Spyware"
-    ],
+    "options": ["Virus", "Worm", "Trojan", "Spyware"],
     "answer": 2
   },
   {
-    "question": "Which malware replicates itself across networks?",
-    "options": [
-      "Virus",
-      "Worm",
-      "Trojan",
-      "Adware"
-    ],
+    "question": "Which security principle ensures data is accessible when needed?",
+    "options": ["Confidentiality", "Integrity", "Availability", "Authentication"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for converting data into signals?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer controls access to the physical medium?",
+    "options": ["Physical", "Data Link", "Network", "Session"],
     "answer": 1
   },
   {
-    "question": "Which security principle ensures data is not altered?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Authentication"
-    ],
+    "question": "Which OSI layer provides flow control and error recovery?",
+    "options": ["Network", "Transport", "Session", "Presentation"],
     "answer": 1
   },
   {
-    "question": "Which security principle ensures access when needed?",
+    "question": "What is the correct OSI layer order from Layer 1 to Layer 7?",
     "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Authorization"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which security principle protects data from disclosure?",
-    "options": [
-      "Availability",
-      "Integrity",
-      "Confidentiality",
-      "Authentication"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the main purpose of a computer network?",
-    "options": [
-      "To share resources and enable communication",
-      "To increase cost",
-      "To remove servers",
-      "To reduce performance"
+      "Physical, Data Link, Network, Transport, Session, Presentation, Application",
+      "Physical, Network, Data Link, Transport, Session, Presentation, Application",
+      "Data Link, Physical, Network, Transport, Session, Presentation, Application",
+      "Physical, Data Link, Transport, Network, Session, Presentation, Application"
     ],
     "answer": 0
   },
   {
-    "question": "Which device forwards frames using MAC addresses?",
-    "options": [
-      "Router",
-      "Switch",
-      "Firewall",
-      "Modem"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device forwards packets using IP addresses?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which OSI layer is responsible for logical addressing?",
-    "options": [
-      "Data Link",
-      "Network",
-      "Transport",
-      "Session"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which OSI layer handles bit transmission?",
-    "options": [
-      "Physical",
-      "Data Link",
-      "Network",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which OSI layer ensures reliable delivery?",
-    "options": [
-      "Session",
-      "Transport",
-      "Network",
-      "Physical"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which OSI layer provides services directly to applications?",
-    "options": [
-      "Application",
-      "Presentation",
-      "Session",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which protocol translates domain names to IP addresses?",
-    "options": [
-      "FTP",
-      "DNS",
-      "SMTP",
-      "HTTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol dynamically assigns IP addresses?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "DHCP",
-      "DNS"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol resolves IP addresses to MAC addresses?",
-    "options": [
-      "DNS",
-      "ARP",
-      "DHCP",
-      "ICMP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol is connection-oriented?",
-    "options": [
-      "UDP",
-      "ICMP",
-      "TCP",
-      "ARP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is connectionless?",
-    "options": [
-      "TCP",
-      "FTP",
-      "UDP",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Transport layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Network layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which PDU is used at the Data Link layer?",
-    "options": [
-      "Bit",
-      "Frame",
-      "Packet",
-      "Segment"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device operates at Layer 1?",
-    "options": [
-      "Switch",
-      "Hub",
-      "Router",
-      "Firewall"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which network topology uses a central device?",
-    "options": [
-      "Bus",
-      "Ring",
-      "Star",
-      "Mesh"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which topology provides the highest redundancy?",
-    "options": [
-      "Star",
-      "Bus",
-      "Ring",
-      "Mesh"
-    ],
+    "question": "Which TCP/IP layer combines the OSI Application, Presentation, and Session layers?",
+    "options": ["Transport", "Internet", "Network Access", "Application"],
     "answer": 3
   },
   {
-    "question": "Which topology is least expensive to implement?",
+    "question": "Which device would you use to connect two different IP networks?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which statement best describes a switch?",
     "options": [
-      "Mesh",
-      "Star",
-      "Bus",
-      "Hybrid"
+      "Forwards data using IP addresses",
+      "Broadcasts all traffic to every port",
+      "Forwards frames using MAC addresses",
+      "Operates only at the Physical layer"
     ],
     "answer": 2
   },
   {
-    "question": "What is the function of encapsulation?",
+    "question": "Which statement about hubs is TRUE?",
     "options": [
-      "Encrypt data",
-      "Compress data",
-      "Wrap data with headers",
-      "Route packets"
+      "They create separate collision domains",
+      "They operate at the Network layer",
+      "They forward traffic to all ports",
+      "They use MAC address tables"
     ],
     "answer": 2
   },
   {
-    "question": "Which address is burned into a NIC?",
-    "options": [
-      "IP address",
-      "MAC address",
-      "Subnet mask",
-      "Gateway"
-    ],
+    "question": "Which network device improves performance by reducing collisions?",
+    "options": ["Hub", "Switch", "Repeater", "Modem"],
     "answer": 1
   },
   {
-    "question": "How many bits are in an IPv4 address?",
-    "options": [
-      "16",
-      "32",
-      "64",
-      "128"
-    ],
+    "question": "Which protocol is responsible for end-to-end communication in TCP/IP?",
+    "options": ["IP", "TCP", "ARP", "ICMP"],
     "answer": 1
   },
   {
-    "question": "Which IPv4 class provides the largest number of hosts?",
-    "options": [
-      "Class A",
-      "Class B",
-      "Class C",
-      "Class D"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which IPv4 address is private?",
-    "options": [
-      "8.8.8.8",
-      "192.168.1.1",
-      "1.1.1.1",
-      "54.23.10.5"
-    ],
+    "question": "Which protocol is best suited for video streaming?",
+    "options": ["TCP", "UDP", "FTP", "SMTP"],
     "answer": 1
   },
   {
-    "question": "Which address identifies a network?",
+    "question": "Which service does DNS provide?",
     "options": [
-      "Host address",
-      "Broadcast address",
-      "Network address",
-      "MAC address"
+      "IP address assignment",
+      "MAC address resolution",
+      "Name-to-IP resolution",
+      "Packet delivery"
     ],
     "answer": 2
   },
   {
-    "question": "Which address sends data to all hosts on a network?",
-    "options": [
-      "Unicast",
-      "Multicast",
-      "Broadcast",
-      "Anycast"
-    ],
+    "question": "Which protocol assigns IP addresses without user intervention?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
     "answer": 2
   },
   {
-    "question": "Which protocol reports network errors?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "FTP",
-      "DNS"
-    ],
+    "question": "Which protocol sends echo request and reply messages?",
+    "options": ["ARP", "ICMP", "TCP", "UDP"],
     "answer": 1
   },
   {
-    "question": "Which command saves the router configuration?",
-    "options": [
-      "reload",
-      "write erase",
-      "copy running-config startup-config",
-      "show running-config"
-    ],
+    "question": "Which address is used to identify a specific host on a network?",
+    "options": ["Network address", "Broadcast address", "Host address", "Multicast address"],
     "answer": 2
   },
   {
-    "question": "Which command displays the IP configuration?",
+    "question": "What is the function of a subnet mask?",
     "options": [
-      "show version",
-      "show ip route",
-      "ipconfig",
-      "show running-config"
+      "Identify the MAC address",
+      "Determine the network and host portions",
+      "Encrypt IP packets",
+      "Assign default gateways"
     ],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask is Class C by default?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.252"],
     "answer": 2
   },
   {
-    "question": "Which device breaks collision domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Repeater",
-      "Bridge"
-    ],
+    "question": "Which IPv4 address represents a loopback address?",
+    "options": ["192.168.1.1", "127.0.0.1", "255.255.255.255", "10.0.0.1"],
     "answer": 1
   },
   {
-    "question": "Which device breaks broadcast domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What does CSMA/CD stand for?",
-    "options": [
-      "Carrier Sense Multiple Access with Collision Detection",
-      "Central Switching Media Access Control",
-      "Collision Sensitive Media Access Control",
-      "Carrier Switching Multiple Access"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which Ethernet standard operates at 100 Mbps?",
-    "options": [
-      "10BASE-T",
-      "100BASE-T",
-      "1000BASE-T",
-      "10GBASE-T"
-    ],
+    "question": "Which address is reserved for testing the local TCP/IP stack?",
+    "options": ["0.0.0.0", "127.0.0.1", "169.254.0.1", "224.0.0.1"],
     "answer": 1
   },
   {
-    "question": "Which cable type is used for LAN connections?",
-    "options": [
-      "Coaxial",
-      "Fiber",
-      "UTP",
-      "Serial"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which connector is commonly used with UTP cables?",
-    "options": [
-      "RJ-11",
-      "RJ-45",
-      "BNC",
-      "SC"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which layer is responsible for encryption?",
-    "options": [
-      "Session",
-      "Presentation",
-      "Application",
-      "Transport"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which layer manages sessions between hosts?",
-    "options": [
-      "Presentation",
-      "Session",
-      "Transport",
-      "Network"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 80 by default?",
-    "options": [
-      "FTP",
-      "HTTP",
-      "SMTP",
-      "DNS"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 443 by default?",
-    "options": [
-      "HTTP",
-      "FTP",
-      "HTTPS",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is used to send email?",
-    "options": [
-      "POP3",
-      "SMTP",
-      "IMAP",
-      "FTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol retrieves email from a server?",
-    "options": [
-      "SMTP",
-      "FTP",
-      "POP3",
-      "HTTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol allows secure remote login?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "HTTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 22?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "SMTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 21?",
-    "options": [
-      "FTP",
-      "SMTP",
-      "HTTP",
-      "DNS"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which IPv6 address length is correct?",
-    "options": [
-      "32 bits",
-      "64 bits",
-      "128 bits",
-      "256 bits"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which IPv6 address type is equivalent to IPv4 private?",
-    "options": [
-      "Global",
-      "Multicast",
-      "Link-local",
-      "Anycast"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which command tests connectivity between devices?",
-    "options": [
-      "ping",
-      "ipconfig",
-      "netstat",
-      "tracert"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which command shows routing table?",
+    "question": "Which command displays interface status on a Cisco router?",
     "options": [
       "show ip route",
-      "show version",
+      "show interfaces",
       "show arp",
-      "show interfaces"
+      "show version"
     ],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays the current running configuration?",
+    "options": [
+      "show startup-config",
+      "show running-config",
+      "write erase",
+      "reload"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which Cisco command clears the startup configuration?",
+    "options": [
+      "reload",
+      "erase startup-config",
+      "copy running-config startup-config",
+      "show version"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which command reboots a Cisco router?",
+    "options": ["reload", "shutdown", "reset", "restart"],
     "answer": 0
   },
   {
-    "question": "Which device filters traffic based on rules?",
-    "options": [
-      "Switch",
-      "Router",
-      "Firewall",
-      "Hub"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the main purpose of a firewall?",
-    "options": [
-      "Speed up traffic",
-      "Block unauthorized access",
-      "Assign IPs",
-      "Encrypt cables"
-    ],
+    "question": "Which Ethernet technology supports full-duplex communication?",
+    "options": ["Hub-based Ethernet", "Switched Ethernet", "Bus Ethernet", "Coax Ethernet"],
     "answer": 1
   },
   {
-    "question": "Which attack floods a network with traffic?",
-    "options": [
-      "Phishing",
-      "DoS",
-      "Spoofing",
-      "Sniffing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which malware disguises itself as legitimate software?",
-    "options": [
-      "Virus",
-      "Worm",
-      "Trojan",
-      "Spyware"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which malware replicates itself across networks?",
-    "options": [
-      "Virus",
-      "Worm",
-      "Trojan",
-      "Adware"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which security principle ensures data is not altered?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Authentication"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which security principle ensures access when needed?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Authorization"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which security principle protects data from disclosure?",
-    "options": [
-      "Availability",
-      "Integrity",
-      "Confidentiality",
-      "Authentication"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the main purpose of a computer network?",
-    "options": [
-      "To share resources and enable communication",
-      "To increase cost",
-      "To remove servers",
-      "To reduce performance"
-    ],
+    "question": "Which access method is used by Ethernet networks?",
+    "options": ["CSMA/CD", "CSMA/CA", "Token Passing", "Polling"],
     "answer": 0
   },
   {
-    "question": "Which device forwards frames using MAC addresses?",
-    "options": [
-      "Router",
-      "Switch",
-      "Firewall",
-      "Modem"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device forwards packets using IP addresses?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which OSI layer is responsible for logical addressing?",
-    "options": [
-      "Data Link",
-      "Network",
-      "Transport",
-      "Session"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which OSI layer handles bit transmission?",
-    "options": [
-      "Physical",
-      "Data Link",
-      "Network",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which OSI layer ensures reliable delivery?",
-    "options": [
-      "Session",
-      "Transport",
-      "Network",
-      "Physical"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which OSI layer provides services directly to applications?",
-    "options": [
-      "Application",
-      "Presentation",
-      "Session",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which protocol translates domain names to IP addresses?",
-    "options": [
-      "FTP",
-      "DNS",
-      "SMTP",
-      "HTTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol dynamically assigns IP addresses?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "DHCP",
-      "DNS"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol resolves IP addresses to MAC addresses?",
-    "options": [
-      "DNS",
-      "ARP",
-      "DHCP",
-      "ICMP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol is connection-oriented?",
-    "options": [
-      "UDP",
-      "ICMP",
-      "TCP",
-      "ARP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is connectionless?",
-    "options": [
-      "TCP",
-      "FTP",
-      "UDP",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Transport layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Network layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which PDU is used at the Data Link layer?",
-    "options": [
-      "Bit",
-      "Frame",
-      "Packet",
-      "Segment"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device operates at Layer 1?",
-    "options": [
-      "Switch",
-      "Hub",
-      "Router",
-      "Firewall"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which network topology uses a central device?",
-    "options": [
-      "Bus",
-      "Ring",
-      "Star",
-      "Mesh"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which topology provides the highest redundancy?",
-    "options": [
-      "Star",
-      "Bus",
-      "Ring",
-      "Mesh"
-    ],
+    "question": "Which cable type is immune to electromagnetic interference?",
+    "options": ["UTP", "STP", "Coaxial", "Fiber optic"],
     "answer": 3
   },
   {
-    "question": "Which topology is least expensive to implement?",
-    "options": [
-      "Mesh",
-      "Star",
-      "Bus",
-      "Hybrid"
-    ],
+    "question": "Which connector is commonly used with fiber optic cables?",
+    "options": ["RJ-45", "BNC", "SC", "RJ-11"],
     "answer": 2
   },
   {
-    "question": "What is the function of encapsulation?",
-    "options": [
-      "Encrypt data",
-      "Compress data",
-      "Wrap data with headers",
-      "Route packets"
-    ],
+    "question": "Which protocol uses port number 25?",
+    "options": ["FTP", "SMTP", "HTTP", "DNS"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port number 110?",
+    "options": ["IMAP", "SMTP", "POP3", "FTP"],
     "answer": 2
   },
   {
-    "question": "Which address is burned into a NIC?",
-    "options": [
-      "IP address",
-      "MAC address",
-      "Subnet mask",
-      "Gateway"
-    ],
+    "question": "Which protocol allows encrypted web communication?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
     "answer": 1
   },
   {
-    "question": "How many bits are in an IPv4 address?",
-    "options": [
-      "16",
-      "32",
-      "64",
-      "128"
-    ],
+    "question": "Which protocol allows remote command-line access without encryption?",
+    "options": ["SSH", "Telnet", "FTP", "HTTPS"],
     "answer": 1
   },
   {
-    "question": "Which IPv4 class provides the largest number of hosts?",
-    "options": [
-      "Class A",
-      "Class B",
-      "Class C",
-      "Class D"
-    ],
+    "question": "Which IPv6 address type sends traffic to multiple destinations?",
+    "options": ["Unicast", "Anycast", "Multicast", "Broadcast"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv6 address type does NOT exist?",
+    "options": ["Unicast", "Multicast", "Broadcast", "Anycast"],
+    "answer": 2
+  },
+  {
+    "question": "Which security attack tricks users into revealing information?",
+    "options": ["DoS", "Phishing", "Spoofing", "Sniffing"],
+    "answer": 1
+  },
+  {
+    "question": "Which attack involves capturing network traffic?",
+    "options": ["Sniffing", "Phishing", "DoS", "Trojan"],
     "answer": 0
   },
   {
-    "question": "Which IPv4 address is private?",
-    "options": [
-      "8.8.8.8",
-      "192.168.1.1",
-      "1.1.1.1",
-      "54.23.10.5"
-    ],
+    "question": "Which malware installs itself without the user's knowledge?",
+    "options": ["Trojan", "Spyware", "Worm", "Adware"],
     "answer": 1
   },
   {
-    "question": "Which address identifies a network?",
-    "options": [
-      "Host address",
-      "Broadcast address",
-      "Network address",
-      "MAC address"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which address sends data to all hosts on a network?",
-    "options": [
-      "Unicast",
-      "Multicast",
-      "Broadcast",
-      "Anycast"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol reports network errors?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "FTP",
-      "DNS"
-    ],
+    "question": "Which security goal ensures data is not modified in transit?",
+    "options": ["Confidentiality", "Integrity", "Availability", "Authentication"],
     "answer": 1
   },
   {
-    "question": "Which command saves the router configuration?",
-    "options": [
-      "reload",
-      "write erase",
-      "copy running-config startup-config",
-      "show running-config"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which command displays the IP configuration?",
-    "options": [
-      "show version",
-      "show ip route",
-      "ipconfig",
-      "show running-config"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which device breaks collision domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Repeater",
-      "Bridge"
-    ],
+    "question": "Which security goal ensures only authorized users can access data?",
+    "options": ["Integrity", "Confidentiality", "Availability", "Accounting"],
     "answer": 1
   },
   {
-    "question": "Which device breaks broadcast domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
+    "question": "Which term describes verifying a user's identity?",
+    "options": ["Authorization", "Authentication", "Accounting", "Encryption"],
+    "answer": 1
+  },
+  {
+    "question": "Which term describes what a user is allowed to do after login?",
+    "options": ["Authentication", "Authorization", "Accounting", "Availability"],
+    "answer": 1
+  },
+  {
+    "question": "Which network characteristic allows growth without redesign?",
+    "options": ["Reliability", "Scalability", "Security", "Latency"],
+    "answer": 1
+  },
+  {
+    "question": "Which network characteristic ensures continuous operation during failures?",
+    "options": ["Performance", "Security", "Fault tolerance", "Scalability"],
     "answer": 2
   },
   {
-    "question": "What does CSMA/CD stand for?",
+    "question": "Which term describes the delay in data transmission?",
+    "options": ["Bandwidth", "Throughput", "Latency", "Jitter"],
+    "answer": 2
+  },
+  {
+    "question": "Which term describes the actual data transfer rate achieved?",
+    "options": ["Bandwidth", "Throughput", "Latency", "Packet loss"],
+    "answer": 1
+  },
+  {
+    "question": "Which device connects a LAN to the internet?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which statement about firewalls is TRUE?",
     "options": [
-      "Carrier Sense Multiple Access with Collision Detection",
-      "Central Switching Media Access Control",
-      "Collision Sensitive Media Access Control",
-      "Carrier Switching Multiple Access"
+      "They assign IP addresses",
+      "They forward frames based on MAC addresses",
+      "They filter traffic based on rules",
+      "They amplify signals"
     ],
+    "answer": 2
+  },
+  [
+  {
+    "question": "Which OSI layer defines how data is formatted for transmission?",
+    "options": ["Application", "Presentation", "Session", "Transport"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for establishing logical connections between applications?",
+    "options": ["Session", "Transport", "Presentation", "Network"],
     "answer": 0
   },
   {
-    "question": "Which Ethernet standard operates at 100 Mbps?",
-    "options": [
-      "10BASE-T",
-      "100BASE-T",
-      "1000BASE-T",
-      "10GBASE-T"
-    ],
+    "question": "Which OSI layer provides segmentation and reassembly of data?",
+    "options": ["Network", "Transport", "Data Link", "Session"],
     "answer": 1
   },
   {
-    "question": "Which cable type is used for LAN connections?",
-    "options": [
-      "Coaxial",
-      "Fiber",
-      "UTP",
-      "Serial"
-    ],
+    "question": "Which OSI layer is responsible for path selection?",
+    "options": ["Data Link", "Network", "Transport", "Session"],
+    "answer": 1
+  },
+  {
+    "question": "Which TCP/IP layer is equivalent to the OSI Network layer?",
+    "options": ["Application", "Transport", "Internet", "Network Access"],
     "answer": 2
   },
   {
-    "question": "Which connector is commonly used with UTP cables?",
-    "options": [
-      "RJ-11",
-      "RJ-45",
-      "BNC",
-      "SC"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which layer is responsible for encryption?",
-    "options": [
-      "Session",
-      "Presentation",
-      "Application",
-      "Transport"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which layer manages sessions between hosts?",
-    "options": [
-      "Presentation",
-      "Session",
-      "Transport",
-      "Network"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 80 by default?",
-    "options": [
-      "FTP",
-      "HTTP",
-      "SMTP",
-      "DNS"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 443 by default?",
-    "options": [
-      "HTTP",
-      "FTP",
-      "HTTPS",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is used to send email?",
-    "options": [
-      "POP3",
-      "SMTP",
-      "IMAP",
-      "FTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol retrieves email from a server?",
-    "options": [
-      "SMTP",
-      "FTP",
-      "POP3",
-      "HTTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol allows secure remote login?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "HTTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 22?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "SMTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol uses port 21?",
-    "options": [
-      "FTP",
-      "SMTP",
-      "HTTP",
-      "DNS"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which IPv6 address length is correct?",
-    "options": [
-      "32 bits",
-      "64 bits",
-      "128 bits",
-      "256 bits"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which IPv6 address type is equivalent to IPv4 private?",
-    "options": [
-      "Global",
-      "Multicast",
-      "Link-local",
-      "Anycast"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which command tests connectivity between devices?",
-    "options": [
-      "ping",
-      "ipconfig",
-      "netstat",
-      "tracert"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which command shows routing table?",
-    "options": [
-      "show ip route",
-      "show version",
-      "show arp",
-      "show interfaces"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which device filters traffic based on rules?",
-    "options": [
-      "Switch",
-      "Router",
-      "Firewall",
-      "Hub"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the main purpose of a firewall?",
-    "options": [
-      "Speed up traffic",
-      "Block unauthorized access",
-      "Assign IPs",
-      "Encrypt cables"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which attack floods a network with traffic?",
-    "options": [
-      "Phishing",
-      "DoS",
-      "Spoofing",
-      "Sniffing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which malware disguises itself as legitimate software?",
-    "options": [
-      "Virus",
-      "Worm",
-      "Trojan",
-      "Spyware"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which malware replicates itself across networks?",
-    "options": [
-      "Virus",
-      "Worm",
-      "Trojan",
-      "Adware"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which security principle ensures data is not altered?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Authentication"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which security principle ensures access when needed?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Authorization"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which security principle protects data from disclosure?",
-    "options": [
-      "Availability",
-      "Integrity",
-      "Confidentiality",
-      "Authentication"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the main purpose of a computer network?",
-    "options": [
-      "To share resources and enable communication",
-      "To increase cost",
-      "To remove servers",
-      "To reduce performance"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which device forwards frames using MAC addresses?",
-    "options": [
-      "Router",
-      "Switch",
-      "Firewall",
-      "Modem"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device forwards packets using IP addresses?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which OSI layer is responsible for logical addressing?",
-    "options": [
-      "Data Link",
-      "Network",
-      "Transport",
-      "Session"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which OSI layer handles bit transmission?",
-    "options": [
-      "Physical",
-      "Data Link",
-      "Network",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which OSI layer ensures reliable delivery?",
-    "options": [
-      "Session",
-      "Transport",
-      "Network",
-      "Physical"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which OSI layer provides services directly to applications?",
-    "options": [
-      "Application",
-      "Presentation",
-      "Session",
-      "Transport"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which protocol translates domain names to IP addresses?",
-    "options": [
-      "FTP",
-      "DNS",
-      "SMTP",
-      "HTTP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol dynamically assigns IP addresses?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "DHCP",
-      "DNS"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol resolves IP addresses to MAC addresses?",
-    "options": [
-      "DNS",
-      "ARP",
-      "DHCP",
-      "ICMP"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which protocol is connection-oriented?",
-    "options": [
-      "UDP",
-      "ICMP",
-      "TCP",
-      "ARP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol is connectionless?",
-    "options": [
-      "TCP",
-      "FTP",
-      "UDP",
-      "SMTP"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Transport layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which PDU is used at the Network layer?",
-    "options": [
-      "Frame",
-      "Packet",
-      "Segment",
-      "Bit"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which PDU is used at the Data Link layer?",
-    "options": [
-      "Bit",
-      "Frame",
-      "Packet",
-      "Segment"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device operates at Layer 1?",
-    "options": [
-      "Switch",
-      "Hub",
-      "Router",
-      "Firewall"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which network topology uses a central device?",
-    "options": [
-      "Bus",
-      "Ring",
-      "Star",
-      "Mesh"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which topology provides the highest redundancy?",
-    "options": [
-      "Star",
-      "Bus",
-      "Ring",
-      "Mesh"
-    ],
+    "question": "Which TCP/IP layer handles physical transmission of data?",
+    "options": ["Application", "Transport", "Internet", "Network Access"],
     "answer": 3
   },
   {
-    "question": "Which topology is least expensive to implement?",
-    "options": [
-      "Mesh",
-      "Star",
-      "Bus",
-      "Hybrid"
-    ],
+    "question": "Which device is best used to extend the length of a network cable?",
+    "options": ["Router", "Switch", "Repeater", "Firewall"],
     "answer": 2
   },
   {
-    "question": "What is the function of encapsulation?",
-    "options": [
-      "Encrypt data",
-      "Compress data",
-      "Wrap data with headers",
-      "Route packets"
-    ],
+    "question": "Which device forwards data to all connected ports without filtering?",
+    "options": ["Switch", "Router", "Hub", "Firewall"],
     "answer": 2
   },
   {
-    "question": "Which address is burned into a NIC?",
-    "options": [
-      "IP address",
-      "MAC address",
-      "Subnet mask",
-      "Gateway"
-    ],
+    "question": "Which network device makes forwarding decisions based on IP addresses?",
+    "options": ["Hub", "Switch", "Router", "Bridge"],
+    "answer": 2
+  },
+  {
+    "question": "Which device connects networks that use different addressing schemes?",
+    "options": ["Switch", "Hub", "Router", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol is responsible for delivering packets across networks?",
+    "options": ["TCP", "UDP", "IP", "ARP"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol helps avoid IP address conflicts by leasing addresses?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol uses echo request and echo reply messages?",
+    "options": ["TCP", "UDP", "ICMP", "ARP"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol allows a device to learn its IP configuration automatically?",
+    "options": ["DNS", "ARP", "DHCP", "FTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol ensures data arrives in the correct order?",
+    "options": ["UDP", "IP", "TCP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which addressing type delivers data to a single destination?",
+    "options": ["Broadcast", "Multicast", "Unicast", "Anycast"],
+    "answer": 2
+  },
+  {
+    "question": "Which addressing type delivers data to all hosts in a network?",
+    "options": ["Unicast", "Broadcast", "Multicast", "Anycast"],
     "answer": 1
   },
   {
-    "question": "How many bits are in an IPv4 address?",
-    "options": [
-      "16",
-      "32",
-      "64",
-      "128"
-    ],
+    "question": "Which addressing type delivers data to a group of selected hosts?",
+    "options": ["Broadcast", "Multicast", "Anycast", "Unicast"],
     "answer": 1
   },
   {
-    "question": "Which IPv4 class provides the largest number of hosts?",
-    "options": [
-      "Class A",
-      "Class B",
-      "Class C",
-      "Class D"
-    ],
+    "question": "Which IPv4 address indicates that a host has not yet been assigned an IP?",
+    "options": ["127.0.0.1", "0.0.0.0", "255.255.255.255", "169.254.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address range is automatically assigned when DHCP fails?",
+    "options": ["10.0.0.0/8", "172.16.0.0/12", "169.254.0.0/16", "192.168.0.0/16"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address is reserved for broadcasting to all hosts?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "224.0.0.1"],
+    "answer": 2
+  },
+  {
+    "question": "Which command is used to verify IP address assignment on a PC?",
+    "options": ["ping", "netstat", "ipconfig", "tracert"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays active network connections?",
+    "options": ["ipconfig", "netstat", "ping", "arp"],
+    "answer": 1
+  },
+  {
+    "question": "Which Cisco command displays the device IOS version?",
+    "options": ["show ip route", "show interfaces", "show version", "show running-config"],
+    "answer": 2
+  },
+  {
+    "question": "Which Cisco command displays learned MAC addresses on a switch?",
+    "options": ["show ip route", "show mac address-table", "show arp", "show interfaces"],
+    "answer": 1
+  },
+  {
+    "question": "Which command is used to manually assign an IP address on a Cisco interface?",
+    "options": ["ip route", "interface ip", "ip address", "set ip"],
+    "answer": 2
+  },
+  {
+    "question": "Which Ethernet feature allows simultaneous sending and receiving of data?",
+    "options": ["Half-duplex", "Full-duplex", "CSMA/CD", "Token passing"],
+    "answer": 1
+  },
+  {
+    "question": "Which Ethernet mode allows collisions to occur?",
+    "options": ["Full-duplex", "Switched", "Half-duplex", "Fiber"],
+    "answer": 2
+  },
+  {
+    "question": "Which transmission medium uses light to carry data?",
+    "options": ["UTP", "STP", "Coaxial", "Fiber optic"],
+    "answer": 3
+  },
+  {
+    "question": "Which cable type is least affected by electromagnetic interference?",
+    "options": ["UTP", "Coaxial", "Fiber optic", "Serial"],
+    "answer": 2
+  },
+  {
+    "question": "Which connector is commonly used for Ethernet connections?",
+    "options": ["RJ-11", "RJ-45", "BNC", "SC"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port number 53?",
+    "options": ["DNS", "FTP", "HTTP", "SMTP"],
     "answer": 0
   },
   {
-    "question": "Which IPv4 address is private?",
-    "options": [
-      "8.8.8.8",
-      "192.168.1.1",
-      "1.1.1.1",
-      "54.23.10.5"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which address identifies a network?",
-    "options": [
-      "Host address",
-      "Broadcast address",
-      "Network address",
-      "MAC address"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which address sends data to all hosts on a network?",
-    "options": [
-      "Unicast",
-      "Multicast",
-      "Broadcast",
-      "Anycast"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which protocol reports network errors?",
-    "options": [
-      "ARP",
-      "ICMP",
-      "FTP",
-      "DNS"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which command saves the router configuration?",
-    "options": [
-      "reload",
-      "write erase",
-      "copy running-config startup-config",
-      "show running-config"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which command displays the IP configuration?",
-    "options": [
-      "show version",
-      "show ip route",
-      "ipconfig",
-      "show running-config"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which device breaks collision domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Repeater",
-      "Bridge"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which device breaks broadcast domains?",
-    "options": [
-      "Hub",
-      "Switch",
-      "Router",
-      "Repeater"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What does CSMA/CD stand for?",
-    "options": [
-      "Carrier Sense Multiple Access with Collision Detection",
-      "Central Switching Media Access Control",
-      "Collision Sensitive Media Access Control",
-      "Carrier Switching Multiple Access"
-    ],
+    "question": "Which protocol uses port number 20 for data transfer?",
+    "options": ["FTP", "SMTP", "HTTP", "DNS"],
     "answer": 0
+  },
+  {
+    "question": "Which protocol allows secure file transfer?",
+    "options": ["FTP", "SFTP", "TFTP", "HTTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol allows unsecured remote login?",
+    "options": ["SSH", "HTTPS", "Telnet", "SFTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv6 address begins with FE80?",
+    "options": ["Global unicast", "Multicast", "Link-local", "Anycast"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv6 address type is routable on the public internet?",
+    "options": ["Link-local", "Multicast", "Global unicast", "Anycast"],
+    "answer": 2
+  },
+  {
+    "question": "Which security threat involves impersonating another device?",
+    "options": ["Phishing", "Spoofing", "Sniffing", "DoS"],
+    "answer": 1
+  },
+  {
+    "question": "Which attack captures packets traveling across a network?",
+    "options": ["Phishing", "Sniffing", "Trojan", "Worm"],
+    "answer": 1
+  },
+  {
+    "question": "Which malware spreads without user interaction?",
+    "options": ["Trojan", "Virus", "Worm", "Spyware"],
+    "answer": 2
+  },
+  {
+    "question": "Which security mechanism scrambles data to protect confidentiality?",
+    "options": ["Authentication", "Authorization", "Encryption", "Accounting"],
+    "answer": 2
+  },
+  {
+    "question": "Which term refers to verifying a user's credentials?",
+    "options": ["Authorization", "Authentication", "Accounting", "Auditing"],
+    "answer": 1
+  },
+  {
+    "question": "Which term refers to logging user activity?",
+    "options": ["Authorization", "Authentication", "Accounting", "Encryption"],
+    "answer": 2
+  },
+  {
+    "question": "Which network design feature ensures minimal downtime?",
+    "options": ["Scalability", "Fault tolerance", "Bandwidth", "Latency"],
+    "answer": 1
+  },
+  {
+    "question": "Which network metric measures variation in packet delay?",
+    "options": ["Latency", "Jitter", "Throughput", "Bandwidth"],
+    "answer": 1
+  },
+  {
+    "question": "Which metric represents maximum possible data transfer rate?",
+    "options": ["Throughput", "Latency", "Bandwidth", "Packet loss"],
+    "answer": 2
+  },
+  {
+    "question": "Which device typically acts as the default gateway in a LAN?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": 1
   }
+]
 ]
