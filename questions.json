@@ -1,0 +1,1518 @@
+[
+  {
+    "question": "Which network characteristic allows a network to grow without impacting existing users?",
+    "options": ["Reliability", "Scalability", "Security", "QoS"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for end-to-end communication between applications?",
+    "options": ["Network", "Transport", "Session", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which PDU is associated with the transport layer?",
+    "options": ["Bits", "Frame", "Packet", "Segment"],
+    "answer": 3
+  },
+  {
+    "question": "Which protocol provides connectionless communication?",
+    "options": ["TCP", "HTTP", "FTP", "UDP"],
+    "answer": 3
+  },
+  {
+    "question": "Which device forwards traffic based on IP addresses?",
+    "options": ["Hub", "Switch", "Router", "Bridge"],
+    "answer": 2
+  },
+  {
+    "question": "What is the default subnet mask for a Class C network?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.240"],
+    "answer": 2
+  },
+  {
+    "question": "How many usable host addresses are available in a /27 subnet?",
+    "options": ["32", "30", "16", "64"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for error detection using CRC?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol translates domain names into IP addresses?",
+    "options": ["ARP", "DNS", "DHCP", "ICMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays the IPv4 routing table on a Cisco router?",
+    "options": ["show ip arp", "show ip route", "show interfaces", "show running-config"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which address uniquely identifies a device on a LAN?",
+    "options": ["IP address", "MAC address", "Port number", "URL"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for segmentation?",
+    "options": ["Application", "Transport", "Network", "Data Link"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 443?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which device operates at Layer 2 of the OSI model?",
+    "options": ["Router", "Switch", "Hub", "Firewall"],
+    "answer": 1
+  },
+  {
+    "question": "What is the main drawback of CSMA/CD?",
+    "options": ["High cost", "Collisions reduce performance", "Slow encryption", "Limited distance"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol automatically assigns IP addresses to hosts?",
+    "options": ["ARP", "DNS", "DHCP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer handles encryption and data formatting?",
+    "options": ["Session", "Presentation", "Transport", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask corresponds to /30?",
+    "options": ["255.255.255.252", "255.255.255.248", "255.255.255.240", "255.255.255.224"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable IP addresses are in a /30 subnet?",
+    "options": ["4", "2", "6", "8"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to send email?",
+    "options": ["FTP", "SMTP", "HTTP", "SNMP"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which command saves the running configuration to NVRAM?",
+    "options": [
+      "reload",
+      "copy startup-config running-config",
+      "copy running-config startup-config",
+      "erase startup-config"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which network feature prioritizes voice and video traffic?",
+    "options": ["ACL", "QoS", "NAT", "VPN"],
+    "answer": 1
+  },
+  {
+    "question": "Which address has all host bits set to 1?",
+    "options": ["Network address", "First host address", "Broadcast address", "Gateway address"],
+    "answer": 2
+  },
+  {
+    "question": "Which device regenerates signals to extend network distance?",
+    "options": ["Router", "Repeater", "Switch", "Firewall"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer establishes, manages, and terminates sessions?",
+    "options": ["Session", "Transport", "Presentation", "Application"],
+    "answer": 0
+  },
+  {
+    "question": "Which transport protocol guarantees reliable delivery?",
+    "options": ["UDP", "IP", "TCP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which CLI mode allows full access to device commands?",
+    "options": ["User EXEC", "Privileged EXEC", "Global Configuration", "ROMMON"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol maps an IP address to a MAC address?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which topology has a single point of failure at the backbone?",
+    "options": ["Star", "Mesh", "Bus", "Hybrid"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays IP address and interface status?",
+    "options": ["show ip route", "show ip interface brief", "show arp", "show vlan"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which OSI layer uses frames as its PDU?",
+    "options": ["Physical", "Network", "Data Link", "Transport"],
+    "answer": 2
+  },
+  {
+    "question": "Which fiber optic component carries the light signal?",
+    "options": ["Cladding", "Core", "Jacket", "Mesh"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 class has a default subnet mask of 255.255.0.0?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 1
+  },
+  {
+    "question": "Which utility uses ICMP to test connectivity?",
+    "options": ["FTP", "Ping", "Traceroute", "SNMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which type of malware secretly collects user information?",
+    "options": ["Virus", "Spyware", "Worm", "Ransomware"],
+    "answer": 1
+  },
+  {
+    "question": "Which device forwards traffic between different networks?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is closest to the end user?",
+    "options": ["Application", "Presentation", "Session", "Transport"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 21?",
+    "options": ["FTP", "SMTP", "HTTP", "HTTPS"],
+    "answer": 0
+  },
+  {
+    "question": "Which subnet mask provides 16 total addresses?",
+    "options": ["255.255.255.240", "255.255.255.248", "255.255.255.252", "255.255.255.224"],
+    "answer": 0
+  },
+
+  {
+    "question": "Which device blocks unauthorized incoming and outgoing traffic?",
+    "options": ["Switch", "Router", "Firewall", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which transport layer field identifies the receiving application?",
+    "options": ["Source IP", "Destination IP", "Source port", "Destination port"],
+    "answer": 3
+  },
+  {
+    "question": "Which network feature allows secure remote access?",
+    "options": ["NAT", "VPN", "ACL", "QoS"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address is a private address?",
+    "options": ["8.8.8.8", "192.168.1.1", "209.165.201.1", "172.32.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays the ARP table on a router?",
+    "options": ["show arp", "show ip arp", "show interfaces", "show ip route"],
+    "answer": 1
+  },
+  {
+    "question": "Which network characteristic ensures fast recovery after failure?",
+    "options": ["Scalability", "QoS", "Fault tolerance", "Throughput"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address component identifies the network portion?",
+    "options": ["Host bits", "Subnet mask", "MAC address", "Port number"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for converting data into signals on the wire?",
+    "options": ["Data Link", "Physical", "Network", "Transport"],
+    "answer": 1
+  },
+  {
+    "question": "Which device uses a MAC address table to forward frames?",
+    "options": ["Router", "Switch", "Firewall", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address is reserved for loopback testing?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to discover the MAC address of a known IP address?",
+    "options": ["DNS", "DHCP", "ARP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which command is used to test reachability between two network devices?",
+    "options": ["tracert", "ping", "ipconfig", "netstat"],
+    "answer": 1
+  },
+  {
+    "question": "Which network characteristic refers to the ability to prioritize certain traffic?",
+    "options": ["Scalability", "Reliability", "QoS", "Security"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for establishing and terminating connections?",
+    "options": ["Session", "Transport", "Presentation", "Application"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol is used to securely transfer web pages?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address range is private?",
+    "options": ["10.0.0.0 to 10.255.255.255", "11.0.0.0 to 11.255.255.255", "172.32.0.0 to 172.63.255.255", "192.0.0.0 to 192.255.255.255"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays the current running configuration?",
+    "options": ["show startup-config", "show running-config", "copy running-config startup-config", "reload"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which OSI layer is responsible for flow control?",
+    "options": ["Application", "Transport", "Network", "Data Link"],
+    "answer": 1
+  },
+  {
+    "question": "Which type of address is used by switches to forward frames?",
+    "options": ["IP address", "MAC address", "Port number", "Subnet mask"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address represents the network address?",
+    "options": ["All host bits set to 1", "All host bits set to 0", "First usable address", "Last usable address"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol reports errors and network status messages?",
+    "options": ["ARP", "DNS", "ICMP", "DHCP"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays MAC address entries on a switch?",
+    "options": ["show ip route", "show mac address-table", "show arp", "show interfaces"],
+    "answer": 1
+  },
+  {
+    "question": "Which device breaks up broadcast domains?",
+    "options": ["Switch", "Hub", "Router", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which network topology provides the highest redundancy?",
+    "options": ["Bus", "Star", "Ring", "Mesh"],
+    "answer": 3
+  },
+  {
+    "question": "Which OSI layer is responsible for encryption?",
+    "options": ["Session", "Presentation", "Transport", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 25?",
+    "options": ["SMTP", "FTP", "HTTP", "DNS"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 address class supports multicast?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 3
+  },
+
+  {
+    "question": "Which command displays detailed interface statistics?",
+    "options": ["show ip interface brief", "show interfaces", "show arp", "show ip route"],
+    "answer": 1
+  },
+  {
+    "question": "Which type of cable is immune to electromagnetic interference?",
+    "options": ["UTP", "STP", "Coaxial", "Fiber optic"],
+    "answer": 3
+  },
+  {
+    "question": "Which protocol is responsible for reliable data transfer?",
+    "options": ["UDP", "IP", "TCP", "ARP"],
+    "answer": 2
+  },
+  {
+    "question": "Which device forwards traffic only to the destination port?",
+    "options": ["Hub", "Repeater", "Switch", "Router"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays the IP configuration on a Windows PC?",
+    "options": ["ifconfig", "ip addr", "ipconfig", "netstat"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address is APIPA?",
+    "options": ["127.0.0.1", "169.254.1.1", "192.168.1.1", "10.0.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which layer is responsible for packet forwarding decisions?",
+    "options": ["Transport", "Network", "Data Link", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which network feature protects against unauthorized access?",
+    "options": ["QoS", "Security", "Scalability", "Throughput"],
+    "answer": 1
+  },
+  {
+    "question": "Which command erases the startup configuration?",
+    "options": ["erase startup-config", "reload", "delete vlan.dat", "copy running-config startup-config"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol provides dynamic routing information?",
+    "options": ["ARP", "ICMP", "RIP", "DNS"],
+    "answer": 2
+  },
+
+  {
+    "question": "Which address identifies a specific process on a host?",
+    "options": ["IP address", "MAC address", "Port number", "Subnet mask"],
+    "answer": 2
+  },
+  {
+    "question": "Which command shows VLAN information on a switch?",
+    "options": ["show vlan brief", "show ip route", "show mac address-table", "show arp"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer prepares data for the application?",
+    "options": ["Transport", "Session", "Presentation", "Application"],
+    "answer": 3
+  },
+  {
+    "question": "Which device separates collision domains?",
+    "options": ["Hub", "Repeater", "Switch", "Coaxial cable"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol uses port 53?",
+    "options": ["DNS", "DHCP", "FTP", "HTTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which subnet mask allows 62 usable hosts?",
+    "options": ["255.255.255.192", "255.255.255.224", "255.255.255.240", "255.255.255.248"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 address indicates an unknown destination?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.0.1"],
+    "answer": 0
+  },
+  {
+    "question": "Which device performs NAT?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to transfer files securely?",
+    "options": ["FTP", "TFTP", "SFTP", "SMTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays the device's hostname?",
+    "options": ["show running-config", "show version", "show hostname", "show ip route"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer is responsible for transmitting raw bits over the medium?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "answer": 0
+  },
+  {
+    "question": "Which device forwards frames out all ports except the source when the destination MAC is unknown?",
+    "options": ["Router", "Switch", "Firewall", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address represents a limited broadcast?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.1.1"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol is used to report errors such as unreachable destinations?",
+    "options": ["ARP", "DNS", "ICMP", "DHCP"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays the MAC address of a switch interface?",
+    "options": ["show interfaces", "show mac address-table", "show arp", "show vlan"],
+    "answer": 0
+  },
+  {
+    "question": "Which network characteristic ensures consistent performance under load?",
+    "options": ["Scalability", "Reliability", "QoS", "Security"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for dialog control?",
+    "options": ["Transport", "Session", "Presentation", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 110?",
+    "options": ["SMTP", "POP3", "IMAP", "FTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address range is reserved for APIPA?",
+    "options": ["127.0.0.0/8", "169.254.0.0/16", "192.168.0.0/16", "10.0.0.0/8"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays VLAN membership on a Cisco switch?",
+    "options": ["show vlan brief", "show interfaces", "show ip route", "show arp"],
+    "answer": 0
+  },
+
+  {
+    "question": "Which OSI layer handles multiplexing using port numbers?",
+    "options": ["Application", "Transport", "Network", "Session"],
+    "answer": 1
+  },
+  {
+    "question": "Which address is used as the default route destination?",
+    "options": ["127.0.0.1", "0.0.0.0", "255.255.255.255", "169.254.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays detailed IP information on Linux systems?",
+    "options": ["ipconfig", "ifconfig", "show ip interface", "netstat"],
+    "answer": 1
+  },
+  {
+    "question": "Which device forwards traffic using routing tables?",
+    "options": ["Switch", "Hub", "Router", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer uses packets as its PDU?",
+    "options": ["Data Link", "Network", "Transport", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used for network management?",
+    "options": ["FTP", "SNMP", "SMTP", "HTTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask allows 14 usable hosts?",
+    "options": ["255.255.255.240", "255.255.255.248", "255.255.255.252", "255.255.255.224"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 address identifies the local host?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 161?",
+    "options": ["SNMP", "SMTP", "FTP", "DNS"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays the device hostname?",
+    "options": ["show version", "show running-config", "show hostname", "show ip route"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which network topology uses a central connection point?",
+    "options": ["Bus", "Ring", "Star", "Mesh"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer converts binary data into signals?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 69?",
+    "options": ["FTP", "TFTP", "SMTP", "HTTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which address identifies a network interface globally?",
+    "options": ["IP address", "MAC address", "Port number", "Subnet mask"],
+    "answer": 1
+  },
+  {
+    "question": "Which device reduces collision domains?",
+    "options": ["Hub", "Switch", "Repeater", "Coaxial cable"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer ensures data is delivered in sequence?",
+    "options": ["Network", "Transport", "Session", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 23?",
+    "options": ["SSH", "Telnet", "FTP", "HTTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address class is reserved for experimental use?",
+    "options": ["Class A", "Class B", "Class C", "Class E"],
+    "answer": 3
+  },
+  {
+    "question": "Which command displays current users connected to a device?",
+    "options": ["show users", "show ip route", "show arp", "show interfaces"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol is used to securely access a router remotely?",
+    "options": ["Telnet", "FTP", "SSH", "HTTP"],
+    "answer": 2
+  },
+
+  {
+    "question": "Which address is used to identify the subnet?",
+    "options": ["Network address", "Broadcast address", "First host address", "Last host address"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays the IOS version?",
+    "options": ["show version", "show running-config", "show ip route", "show flash"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol provides dynamic IP address allocation?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which network feature prevents data interception?",
+    "options": ["Scalability", "Security", "QoS", "Throughput"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for application services like email and web?",
+    "options": ["Application", "Presentation", "Session", "Transport"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 address is used when a device has no assigned IP?",
+    "options": ["127.0.0.1", "0.0.0.0", "255.255.255.255", "192.168.1.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays interface bandwidth and errors?",
+    "options": ["show ip route", "show interfaces", "show vlan brief", "show arp"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 22?",
+    "options": ["FTP", "Telnet", "SSH", "SNMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which device forwards packets based on both MAC and IP addresses?",
+    "options": ["Layer 2 switch", "Hub", "Layer 3 switch", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which network characteristic refers to uptime and recovery time?",
+    "options": ["Scalability", "Reliability", "QoS", "Security"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for logical addressing?",
+    "options": ["Data Link", "Network", "Transport", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for establishing logical connections?",
+    "options": ["Transport", "Session", "Presentation", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol ensures data arrives in the correct order?",
+    "options": ["UDP", "ICMP", "TCP", "ARP"],
+    "answer": 2
+  },
+  {
+    "question": "Which device forwards frames only to the destination port?",
+    "options": ["Hub", "Switch", "Repeater", "Router"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address is used to represent the default route?",
+    "options": ["127.0.0.1", "0.0.0.0", "255.255.255.255", "169.254.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to synchronize time across network devices?",
+    "options": ["SNMP", "NTP", "FTP", "DNS"],
+    "answer": 1
+  },
+  {
+    "question": "Which command shows CPU and memory usage on a Cisco router?",
+    "options": ["show version", "show processes", "show running-config", "show ip route"],
+    "answer": 1
+  },
+  {
+    "question": "Which network characteristic ensures services remain available?",
+    "options": ["Scalability", "Reliability", "QoS", "Throughput"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to transfer configuration files?",
+    "options": ["FTP", "SMTP", "SNMP", "HTTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which address identifies a broadcast within a subnet?",
+    "options": ["Network address", "First host", "Broadcast address", "Gateway address"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer performs framing?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which type of cable supports the highest bandwidth?",
+    "options": ["UTP", "STP", "Coaxial", "Fiber optic"],
+    "answer": 3
+  },
+  {
+    "question": "Which protocol uses port 20 for data transfer?",
+    "options": ["FTP", "HTTP", "SMTP", "DNS"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays the MAC address table on a switch?",
+    "options": ["show arp", "show ip route", "show mac address-table", "show vlan"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address class is reserved for multicast?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 3
+  },
+  {
+    "question": "Which network device operates only at the Physical layer?",
+    "options": ["Switch", "Hub", "Router", "Firewall"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol provides address resolution?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask allows exactly 30 usable hosts?",
+    "options": ["255.255.255.224", "255.255.255.240", "255.255.255.248", "255.255.255.252"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for data compression?",
+    "options": ["Session", "Presentation", "Transport", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 143?",
+    "options": ["POP3", "IMAP", "SMTP", "FTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which device connects multiple networks together?",
+    "options": ["Switch", "Router", "Hub", "Bridge"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which command displays active TCP connections?",
+    "options": ["show ip route", "netstat", "ping", "tracert"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address range is reserved for private Class B?",
+    "options": ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "224.0.0.0/4"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol allows secure file transfer?",
+    "options": ["FTP", "TFTP", "SFTP", "SMTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which network topology uses a closed loop?",
+    "options": ["Star", "Bus", "Ring", "Mesh"],
+    "answer": 2
+  },
+  {
+    "question": "Which device reduces broadcast traffic?",
+    "options": ["Hub", "Switch", "Router", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer uses acknowledgements?",
+    "options": ["Transport", "Network", "Data Link", "Physical"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol is used to resolve hostnames locally?",
+    "options": ["DNS", "Hosts file", "DHCP", "ICMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which address identifies a service on a host?",
+    "options": ["MAC address", "IP address", "Port number", "Subnet mask"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays interface errors?",
+    "options": ["show interfaces", "show ip route", "show arp", "show vlan"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 3389?",
+    "options": ["SSH", "RDP", "FTP", "HTTP"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which IPv4 address indicates a network itself?",
+    "options": ["All host bits 0", "All host bits 1", "First usable", "Last usable"],
+    "answer": 0
+  },
+  {
+    "question": "Which device forwards packets using both IP and MAC tables?",
+    "options": ["Hub", "Layer 2 switch", "Layer 3 switch", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer handles retransmission of lost segments?",
+    "options": ["Network", "Transport", "Session", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 445?",
+    "options": ["SMB", "FTP", "HTTP", "SMTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which network feature protects data confidentiality?",
+    "options": ["QoS", "Encryption", "Scalability", "Throughput"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays flash memory contents?",
+    "options": ["show flash", "show version", "show running-config", "show ip route"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 address is reserved for testing?",
+    "options": ["127.0.0.0/8", "192.0.2.0/24", "169.254.0.0/16", "10.0.0.0/8"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol provides remote login over a secure channel?",
+    "options": ["Telnet", "FTP", "SSH", "HTTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for application data exchange?",
+    "options": ["Transport", "Session", "Presentation", "Application"],
+    "answer": 3
+  },
+  {
+    "question": "Which network device works as a security boundary?",
+    "options": ["Router", "Switch", "Firewall", "Repeater"],
+    "answer": 2
+  },
+
+  {
+    "question": "Which protocol uses port 123?",
+    "options": ["SNMP", "NTP", "DNS", "SMTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address is used when DHCP fails?",
+    "options": ["127.0.0.1", "169.254.x.x", "192.168.x.x", "0.0.0.0"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for packet routing?",
+    "options": ["Data Link", "Network", "Transport", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 80?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which network characteristic refers to traffic capacity?",
+    "options": ["Latency", "Throughput", "Reliability", "Security"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays system uptime?",
+    "options": ["show version", "show ip route", "show interfaces", "show arp"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 53?",
+    "options": ["DNS", "DHCP", "FTP", "SNMP"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 class is reserved for experimental use?",
+    "options": ["Class A", "Class B", "Class C", "Class E"],
+    "answer": 3
+  },
+  {
+    "question": "Which OSI layer is responsible for error recovery?",
+    "options": ["Physical", "Transport", "Network", "Data Link"],
+    "answer": 1
+  },
+  {
+    "question": "Which device forwards traffic without inspecting packets?",
+    "options": ["Router", "Switch", "Hub", "Firewall"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays the current VLAN configuration?",
+    "options": ["show vlan brief", "show ip route", "show mac address-table", "show arp"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer is responsible for establishing communication sessions?",
+    "options": ["Transport", "Session", "Presentation", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to retrieve email from a mail server?",
+    "options": ["SMTP", "POP3", "FTP", "SNMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which device separates collision domains but not broadcast domains?",
+    "options": ["Router", "Switch", "Hub", "Firewall"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 address is used as the local loopback?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.0.1"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer handles error detection and correction?",
+    "options": ["Physical", "Data Link", "Network", "Session"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to dynamically assign IP addresses?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
+    "answer": 2
+  },
+  {
+    "question": "Which subnet mask allows exactly 14 usable hosts?",
+    "options": ["255.255.255.240", "255.255.255.248", "255.255.255.252", "255.255.255.224"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays a summary of switch port status?",
+    "options": ["show interfaces", "show vlan brief", "show mac address-table", "show ip route"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used for secure remote device management?",
+    "options": ["Telnet", "FTP", "SSH", "HTTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which network characteristic refers to the time taken for data to travel?",
+    "options": ["Throughput", "Latency", "Scalability", "Reliability"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which device forwards packets using a routing table?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer converts digital data into electrical or optical signals?",
+    "options": ["Data Link", "Physical", "Network", "Transport"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 22?",
+    "options": ["FTP", "Telnet", "SSH", "SMTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address range is reserved for private Class C networks?",
+    "options": ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "224.0.0.0/4"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for ensuring reliable delivery?",
+    "options": ["Network", "Transport", "Session", "Application"],
+    "answer": 1
+  },
+  {
+    "question": "Which command shows bandwidth and error statistics on an interface?",
+    "options": ["show ip route", "show interfaces", "show arp", "show vlan"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to resolve hostnames to IP addresses?",
+    "options": ["DNS", "ARP", "DHCP", "ICMP"],
+    "answer": 0
+  },
+  {
+    "question": "Which device operates at both Layer 2 and Layer 3?",
+    "options": ["Hub", "Repeater", "Layer 3 switch", "Bridge"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address indicates a broadcast to all networks?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.0.1"],
+    "answer": 2
+  },
+  {
+    "question": "Which network feature ensures data confidentiality?",
+    "options": ["QoS", "Encryption", "Scalability", "Throughput"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which OSI layer prepares data for application use?",
+    "options": ["Session", "Presentation", "Transport", "Network"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 443?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which network topology provides the least redundancy?",
+    "options": ["Mesh", "Star", "Bus", "Hybrid"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays the IOS version and uptime?",
+    "options": ["show version", "show running-config", "show ip route", "show flash"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 161?",
+    "options": ["FTP", "SMTP", "SNMP", "DNS"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 address is used when a device has no configured IP?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "192.168.1.1"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer handles packet forwarding decisions?",
+    "options": ["Transport", "Network", "Data Link", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 80?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which device forwards traffic without inspecting destination addresses?",
+    "options": ["Router", "Switch", "Firewall", "Hub"],
+    "answer": 3
+  },
+  {
+    "question": "Which network characteristic refers to available data capacity?",
+    "options": ["Latency", "Throughput", "Reliability", "Security"],
+    "answer": 1
+  },
+[
+  {
+    "question": "Which OSI layer is responsible for assigning logical addresses?",
+    "options": ["Data Link", "Network", "Transport", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is used to obtain an IP address automatically on a host?",
+    "options": ["DNS", "DHCP", "ARP", "ICMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which PDU is used at the Data Link layer?",
+    "options": ["Bits", "Frame", "Packet", "Segment"],
+    "answer": 1
+  },
+  {
+    "question": "Which PDU is used at the Physical layer?",
+    "options": ["Bits", "Frame", "Packet", "Segment"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a function of the Transport layer?",
+    "options": ["MAC addressing", "Routing", "Segmentation and reassembly", "Signal encoding"],
+    "answer": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for routing packets to the destination network?",
+    "options": ["Physical", "Network", "Session", "Presentation"],
+    "answer": 1
+  },
+  {
+    "question": "Which command shows the IPv4 address assignment on a router interface?",
+    "options": ["show ip route", "show ip interface brief", "show mac address-table", "show vlan brief"],
+    "answer": 1
+  },
+  {
+    "question": "Which Cisco command changes the device hostname in global configuration mode?",
+    "options": ["name", "hostname", "set host", "device-name"],
+    "answer": 1
+  },
+  {
+    "question": "Which command encrypts passwords stored in the configuration file?",
+    "options": ["service password-encryption", "enable secret", "crypto key generate", "password secure"],
+    "answer": 0
+  },
+  {
+    "question": "Which method is safest for remote CLI access to a router?",
+    "options": ["Telnet", "HTTP", "SSH", "FTP"],
+    "answer": 2
+  },
+
+  {
+    "question": "Which field in a TCP segment identifies the receiving application?",
+    "options": ["Source IP", "Destination IP", "Destination port", "Source MAC"],
+    "answer": 2
+  },
+  {
+    "question": "Which characteristic is true about UDP?",
+    "options": ["Guaranteed delivery", "Connection oriented", "Low overhead", "Uses acknowledgements"],
+    "answer": 2
+  },
+  {
+    "question": "Which characteristic is true about TCP?",
+    "options": ["No sequencing", "Best effort only", "Reliable delivery", "No flow control"],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol uses port 53?",
+    "options": ["DNS", "DHCP", "HTTP", "SMTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 67 and 68?",
+    "options": ["DNS", "DHCP", "FTP", "SNMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 21?",
+    "options": ["FTP", "SSH", "HTTP", "DNS"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 22?",
+    "options": ["SSH", "Telnet", "FTP", "HTTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 23?",
+    "options": ["SSH", "Telnet", "FTP", "SMTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 25?",
+    "options": ["HTTP", "SMTP", "DNS", "ICMP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 80?",
+    "options": ["HTTP", "HTTPS", "FTP", "SNMP"],
+    "answer": 0
+  },
+
+  {
+    "question": "Which protocol uses port 443?",
+    "options": ["HTTP", "HTTPS", "SMTP", "FTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 110?",
+    "options": ["POP3", "IMAP", "SMTP", "SNMP"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 143?",
+    "options": ["POP3", "IMAP", "HTTP", "FTP"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 161?",
+    "options": ["DNS", "SNMP", "HTTP", "SSH"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol uses port 69?",
+    "options": ["TFTP", "FTP", "SSH", "SMTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol uses port 3389?",
+    "options": ["RDP", "SSH", "HTTP", "FTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which address is used for a limited broadcast?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "169.254.0.1"],
+    "answer": 2
+  },
+  {
+    "question": "Which address range is APIPA?",
+    "options": ["10.0.0.0 to 10.255.255.255", "127.0.0.0 to 127.255.255.255", "169.254.0.0 to 169.254.255.255", "192.168.0.0 to 192.168.255.255"],
+    "answer": 2
+  },
+  {
+    "question": "Which address is the loopback address?",
+    "options": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "224.0.0.1"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which device separates broadcast domains?",
+    "options": ["Hub", "Switch", "Router", "Repeater"],
+    "answer": 2
+  },
+  {
+    "question": "Which device separates collision domains on each port?",
+    "options": ["Hub", "Switch", "Coaxial cable", "Repeater"],
+    "answer": 1
+  },
+  {
+    "question": "Which switching method performs a CRC check before forwarding?",
+    "options": ["Store-and-forward", "Cut-through", "Fast-forward", "Fragment-free"],
+    "answer": 0
+  },
+  {
+    "question": "Which switching method forwards as soon as the destination MAC is read?",
+    "options": ["Store-and-forward", "Cut-through", "Fragment-free", "Buffered switching"],
+    "answer": 1
+  },
+  {
+    "question": "A switch receives a frame with an unknown destination MAC. What does it do?",
+    "options": ["Drops the frame", "Floods out all ports except the incoming port", "Sends an ARP request", "Forwards only to VLAN 1"],
+    "answer": 1
+  },
+  {
+    "question": "Which protocol is responsible for address resolution on IPv4 LANs?",
+    "options": ["ARP", "ICMP", "DNS", "DHCP"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol is used by ping?",
+    "options": ["TCP", "UDP", "ICMP", "ARP"],
+    "answer": 2
+  },
+  {
+    "question": "What is the network address for 192.168.10.2/25?",
+    "options": ["192.168.10.0", "192.168.10.128", "192.168.10.255", "192.168.10.64"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable hosts are in a subnet mask 255.255.255.240?",
+    "options": ["16", "14", "30", "62"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask corresponds to /20?",
+    "options": ["255.255.255.0", "255.255.240.0", "255.255.248.0", "255.255.224.0"],
+    "answer": 1
+  },
+
+  {
+    "question": "How many bits are in one octet of an IPv4 address?",
+    "options": ["4", "8", "12", "16"],
+    "answer": 1
+  },
+  {
+    "question": "What is the dotted decimal for 00001010.01100100.00010101.00000001?",
+    "options": ["10.100.21.1", "100.10.11.1", "10.10.20.1", "100.21.10.1"],
+    "answer": 0
+  },
+  {
+    "question": "Which subnet mask corresponds to /27?",
+    "options": ["255.255.255.224", "255.255.255.240", "255.255.255.248", "255.255.255.192"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable hosts are in 192.168.1.32/27?",
+    "options": ["32", "30", "16", "62"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask corresponds to /26?",
+    "options": ["255.255.255.192", "255.255.255.224", "255.255.255.240", "255.255.255.128"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable hosts are in a /26 network?",
+    "options": ["64", "62", "30", "126"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask corresponds to /25?",
+    "options": ["255.255.255.128", "255.255.255.192", "255.255.255.224", "255.255.255.0"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable hosts are in a /25 network?",
+    "options": ["128", "126", "62", "254"],
+    "answer": 1
+  },
+  {
+    "question": "Which subnet mask corresponds to /24?",
+    "options": ["255.255.255.0", "255.255.0.0", "255.0.0.0", "255.255.240.0"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable hosts are in a /24 network?",
+    "options": ["256", "254", "126", "62"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which subnet mask corresponds to /30?",
+    "options": ["255.255.255.252", "255.255.255.248", "255.255.255.240", "255.255.255.224"],
+    "answer": 0
+  },
+  {
+    "question": "How many usable hosts are in a /30 network?",
+    "options": ["4", "2", "6", "8"],
+    "answer": 1
+  },
+  {
+    "question": "For 192.168.10.0/26, what is the broadcast address?",
+    "options": ["192.168.10.63", "192.168.10.64", "192.168.10.255", "192.168.10.0"],
+    "answer": 0
+  },
+  {
+    "question": "For 10.0.0.0/8, what is the default subnet mask?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.128"],
+    "answer": 0
+  },
+  {
+    "question": "For 172.16.0.0/16, what is the default subnet mask?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.240.0"],
+    "answer": 1
+  },
+  {
+    "question": "For 192.168.0.0/24, what is the default subnet mask?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.240.0"],
+    "answer": 2
+  },
+  {
+    "question": "Which IPv4 class has a default mask of 255.0.0.0?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 0
+  },
+  {
+    "question": "Which IPv4 class has a default mask of 255.255.0.0?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 1
+  },
+  {
+    "question": "Which IPv4 class has a default mask of 255.255.255.0?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 2
+  },
+  {
+    "question": "Which IP address class is used for multicast?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": 3
+  },
+
+  {
+    "question": "Which organization publishes RFC documents for Internet standards?",
+    "options": ["IEEE", "IETF", "ISO", "ANSI"],
+    "answer": 1
+  },
+  {
+    "question": "Which network model uses layers such as Application, Transport, Internet, and Network Access?",
+    "options": ["OSI", "TCP/IP", "IEEE", "Cisco model"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for presenting data in a readable format?",
+    "options": ["Session", "Presentation", "Transport", "Network"],
+    "answer": 1
+  },
+  {
+    "question": "What is the main purpose of protocols in communications?",
+    "options": ["Increase bandwidth", "Provide rules for communication", "Encrypt all messages", "Assign MAC addresses"],
+    "answer": 1
+  },
+  {
+    "question": "What is the process of placing one message inside another called?",
+    "options": ["Encoding", "Encapsulation", "Compression", "Multiplexing"],
+    "answer": 1
+  },
+  {
+    "question": "Which term refers to converting data into a suitable format for transmission?",
+    "options": ["Encoding", "Encapsulation", "Routing", "Switching"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer is responsible for identifying applications and services?",
+    "options": ["Application", "Transport", "Network", "Data Link"],
+    "answer": 0
+  },
+  {
+    "question": "Which layer is responsible for MAC addressing?",
+    "options": ["Network", "Data Link", "Transport", "Session"],
+    "answer": 1
+  },
+  {
+    "question": "Which layer uses IP addressing?",
+    "options": ["Transport", "Network", "Data Link", "Physical"],
+    "answer": 1
+  },
+  {
+    "question": "Which layer is responsible for routing between networks?",
+    "options": ["Data Link", "Network", "Transport", "Physical"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which feature provides secure communication over an untrusted network?",
+    "options": ["QoS", "VPN", "CSMA/CD", "NAT"],
+    "answer": 1
+  },
+  {
+    "question": "Which security tool protects against unauthorized connections to and from a computer?",
+    "options": ["Firewall", "Hub", "Bridge", "Repeater"],
+    "answer": 0
+  },
+  {
+    "question": "Which malware is designed to record user activity such as visited websites?",
+    "options": ["Spyware", "Worm", "Ransomware", "Rootkit"],
+    "answer": 0
+  },
+  {
+    "question": "Which network trend involves employees using personal devices at work?",
+    "options": ["Cloud computing", "Video conferencing", "BYOD", "Powerline networking"],
+    "answer": 2
+  },
+  {
+    "question": "In a client-server model, what is the role of a personal computer requesting a file?",
+    "options": ["Client", "Server", "Gateway", "Repeater"],
+    "answer": 0
+  },
+  {
+    "question": "Which command is used to enter privileged EXEC mode?",
+    "options": ["enable", "configure terminal", "interface", "exit"],
+    "answer": 0
+  },
+  {
+    "question": "Which command enters global configuration mode from privileged EXEC?",
+    "options": ["config t", "enable", "line vty 0 4", "show running-config"],
+    "answer": 0
+  },
+  {
+    "question": "Which access method is used when physically present to configure a switch?",
+    "options": ["Telnet", "SSH", "Console", "HTTP"],
+    "answer": 2
+  },
+  {
+    "question": "Which command displays the ARP table on a Cisco router?",
+    "options": ["show ip arp", "show ip route", "show vlan brief", "show mac address-table"],
+    "answer": 0
+  },
+  {
+    "question": "Which route code indicates a directly connected route in a Cisco routing table?",
+    "options": ["S", "C", "R", "D"],
+    "answer": 1
+  },
+
+  {
+    "question": "Which of these increases the difference between bandwidth and throughput?",
+    "options": ["Low latency", "Network congestion and overhead", "Higher MTU always", "Using only one switch"],
+    "answer": 1
+  },
+  {
+    "question": "Which factor can reduce throughput even when bandwidth is high?",
+    "options": ["Low latency", "High latency across devices", "Using IPv4", "Using private IP addresses"],
+    "answer": 1
+  },
+  {
+    "question": "Which statement best describes fault tolerance?",
+    "options": ["Ability to grow quickly", "Ability to recover quickly from failures", "Ability to encrypt traffic", "Ability to reduce latency"],
+    "answer": 1
+  },
+  {
+    "question": "Which statement best describes scalability?",
+    "options": ["Ability to keep data secret", "Ability to expand without major redesign", "Ability to prioritize traffic", "Ability to stop malware"],
+    "answer": 1
+  },
+  {
+    "question": "Which statement best describes reliability?",
+    "options": ["Time to recover and frequency of failure", "Traffic prioritization", "Number of VLANs", "Number of switches"],
+    "answer": 0
+  },
+  {
+    "question": "Which OSI layer would be responsible for ensuring the correct web page reaches the correct browser tab?",
+    "options": ["Transport", "Network", "Data Link", "Physical"],
+    "answer": 0
+  },
+  {
+    "question": "A server runs both HTTP and FTP. What identifies which service should handle incoming data?",
+    "options": ["Source IP address", "Destination port number", "Destination MAC address", "Subnet mask"],
+    "answer": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for determining the best path through the network?",
+    "options": ["Session", "Network", "Transport", "Data Link"],
+    "answer": 1
+  },
+  {
+    "question": "Which command copies the startup configuration into RAM as the running configuration?",
+    "options": ["copy startup-config running-config", "copy running-config startup-config", "reload", "erase startup-config"],
+    "answer": 0
+  },
+  {
+    "question": "Which command copies the running configuration to NVRAM?",
+    "options": ["copy startup-config running-config", "copy running-config startup-config", "show running-config", "show startup-config"],
+    "answer": 1
+  }
+]
+  ]

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Networking Mock Exam</title>
+
+<style>
+:root{
+  --bg:#0b1220;
+  --panel:#0f1b32;
+  --card:#101f3c;
+  --muted:#8da2c0;
+  --text:#eaf1ff;
+  --accent:#6aa8ff;
+  --accent2:#7cf3c6;
+  --danger:#ff6a7a;
+  --border: rgba(255,255,255,0.10);
+  --shadow: 0 18px 40px rgba(0,0,0,0.35);
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(1200px 700px at 20% 10%, rgba(106,168,255,0.22), transparent 60%),
+              radial-gradient(900px 600px at 80% 20%, rgba(124,243,198,0.18), transparent 55%),
+              linear-gradient(180deg, #070c16, var(--bg));
+  color: var(--text);
+  padding: 28px 16px;
+}
+
+.container{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.brand{
+  display:flex;
+  flex-direction:column;
+  gap: 6px;
+}
+.brand h1{
+  margin:0;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+}
+.brand .sub{
+  margin:0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 320px;
+  gap: 14px;
+}
+
+.panel{
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.topbar{
+  padding: 14px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(0,0,0,0.15);
+}
+
+.tagrow{
+  display:flex;
+  gap: 8px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.tag{
+  font-size: 12px;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.04);
+}
+.tag strong{ color: var(--text); }
+
+.actions{
+  display:flex;
+  gap: 10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+button{
+  appearance:none;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor:pointer;
+  font-weight: 650;
+  font-size: 13px;
+  transition: transform 80ms ease, background 150ms ease, border-color 150ms ease;
+  user-select:none;
+}
+button:hover{
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.18);
+}
+button:active{
+  transform: translateY(1px);
+}
+button.primary{
+  background: linear-gradient(90deg, rgba(106,168,255,0.9), rgba(124,243,198,0.85));
+  color: #081427;
+  border-color: rgba(255,255,255,0.18);
+}
+button.danger{
+  background: rgba(255,106,122,0.14);
+  border-color: rgba(255,106,122,0.35);
+  color: #ffd1d6;
+}
+button:disabled{
+  opacity: 0.55;
+  cursor:not-allowed;
+}
+
+.content{
+  padding: 18px 16px 16px;
+}
+
+.q-card{
+  background: rgba(16,31,60,0.55);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.q-meta{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.q-meta .qnum{
+  font-size: 13px;
+  color: var(--muted);
+}
+.q-meta .qnum b{ color: var(--text); }
+
+.question{
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 0 0 14px 0;
+}
+
+.options{
+  display:grid;
+  gap: 10px;
+}
+
+.option{
+  display:flex;
+  align-items:flex-start;
+  gap: 10px;
+  padding: 12px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  cursor:pointer;
+  transition: background 150ms ease, border-color 150ms ease, transform 80ms ease;
+}
+.option:hover{
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.18);
+}
+.option:active{
+  transform: translateY(1px);
+}
+.option input{
+  margin-top: 3px;
+  accent-color: var(--accent2);
+  transform: scale(1.1);
+}
+.option .txt{
+  flex:1;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.35;
+}
+.option.selected{
+  background: rgba(124,243,198,0.10);
+  border-color: rgba(124,243,198,0.35);
+}
+
+.footer{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  margin-top: 14px;
+  flex-wrap:wrap;
+}
+.small{
+  font-size: 12px;
+  color: var(--muted);
+}
+.result{
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+}
+.result h2{ margin:0 0 8px 0; font-size: 18px; }
+.result p{ margin:6px 0 0 0; color: var(--muted); line-height: 1.35; }
+hr.sep{
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 12px 0;
+}
+
+/* Right side navigation */
+.navpanel{
+  padding: 14px;
+}
+.navpanel h3{
+  margin: 4px 0 12px 0;
+  font-size: 14px;
+  color: var(--text);
+}
+.navgrid{
+  display:grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+.navbtn{
+  border-radius: 10px;
+  padding: 10px 0;
+  text-align:center;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  cursor:pointer;
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--text);
+  user-select:none;
+  transition: transform 80ms ease, background 150ms ease, border-color 150ms ease;
+  position: relative;
+}
+.navbtn:hover{
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.18);
+}
+.navbtn:active{ transform: translateY(1px); }
+
+.navbtn.current{
+  outline: 2px solid rgba(106,168,255,0.70);
+  outline-offset: 2px;
+}
+
+.navbtn.unanswered{
+  background: rgba(255,255,255,0.03);
+}
+
+.navbtn.answered{
+  background: rgba(124,243,198,0.10);
+  border-color: rgba(124,243,198,0.35);
+}
+
+.navbtn.correct{
+  background: rgba(124,243,198,0.14);
+  border-color: rgba(124,243,198,0.55);
+}
+
+.navbtn.wrong{
+  background: rgba(255,106,122,0.14);
+  border-color: rgba(255,106,122,0.55);
+}
+
+.legend{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.legend .item{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.swatch{
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+.swatch.unanswered{ background: rgba(255,255,255,0.03); }
+.swatch.answered{ background: rgba(124,243,198,0.10); border-color: rgba(124,243,198,0.35); }
+.swatch.correct{ background: rgba(124,243,198,0.14); border-color: rgba(124,243,198,0.55); }
+.swatch.wrong{ background: rgba(255,106,122,0.14); border-color: rgba(255,106,122,0.55); }
+
+@media (max-width: 980px){
+  .grid{ grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <div class="brand">
+      <h1>Networking Mock Exam</h1>
+      <p class="sub">Each attempt uses <strong>50 questions</strong>. Score is out of 50, and <strong>50 is 100%</strong>.</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <!-- Main exam -->
+    <div class="panel">
+      <div class="topbar">
+        <div class="tagrow">
+          <span class="tag"><strong id="qCounter">Question 1</strong> of <span id="qTotal">50</span></span>
+          <span class="tag">Answered <strong id="answeredCount">0</strong>/50</span>
+          <span class="tag">Score <strong id="scoreLive">0</strong>/50</span>
+        </div>
+        <div class="actions">
+          <button id="btnStart" class="primary" onclick="startExam()">Start exam</button>
+          <button id="btnPrev" onclick="prev()" disabled>Back</button>
+          <button id="btnNext" class="primary" onclick="next()" disabled>Next</button>
+          <button id="btnSubmit" class="danger" onclick="submitExam()" disabled>Submit</button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="q-card">
+          <div class="q-meta">
+            <div class="qnum"><b id="qNumText">Ready</b></div>
+            <div class="small">Mode: 50-question attempt</div>
+          </div>
+
+          <p class="question" id="qText">Click Start exam to begin. Your questions will be randomly selected from questions.json.</p>
+          <div class="options" id="opts"></div>
+
+          <div class="footer">
+            <div class="small">Tip: Use the navigation grid to jump to any question.</div>
+            <div class="small" id="statusText">Status: Not started</div>
+          </div>
+
+          <div class="result" id="result" style="display:none;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="panel">
+      <div class="navpanel">
+        <h3>Quiz navigation</h3>
+        <div class="navgrid" id="navgrid"></div>
+
+        <div class="legend" id="legend">
+          <div class="item"><span class="swatch unanswered"></span> Unanswered</div>
+          <div class="item"><span class="swatch answered"></span> Answered</div>
+          <div class="item"><span class="swatch correct"></span> Correct (after submit)</div>
+          <div class="item"><span class="swatch wrong"></span> Wrong (after submit)</div>
+        </div>
+
+        <hr class="sep" />
+        <div class="small">
+          Note: If questions.json fails to load, run this with VS Code Live Server or any local server.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const EXAM_SIZE = 50;
+
+let bank = [];
+let exam = [];
+let answers = new Array(EXAM_SIZE).fill(null);
+let index = 0;
+let started = false;
+let submitted = false;
+
+function $(id){ return document.getElementById(id); }
+
+function shuffle(arr){
+  for (let i = arr.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function pickExamQuestions(){
+  const copy = bank.slice();
+  shuffle(copy);
+
+  const picked = [];
+  while (picked.length < EXAM_SIZE){
+    for (let i = 0; i < copy.length && picked.length < EXAM_SIZE; i++){
+      picked.push(copy[i]);
+    }
+    if (picked.length < EXAM_SIZE) shuffle(copy);
+  }
+
+  // Shuffle options per question but keep correct answer index aligned
+  return picked.map(q => {
+    const opts = q.options.map((text, idx) => ({ text, idx }));
+    shuffle(opts);
+    const newOptions = opts.map(x => x.text);
+    const newAnswer = opts.findIndex(x => x.idx === q.answer);
+    return { question: q.question, options: newOptions, answer: newAnswer };
+  });
+}
+
+function computeScore(){
+  let correct = 0;
+  for (let i = 0; i < EXAM_SIZE; i++){
+    if (answers[i] !== null && answers[i] === exam[i].answer) correct++;
+  }
+  $("scoreLive").innerText = correct.toString();
+  return correct;
+}
+
+function updateCounters(){
+  $("qTotal").innerText = EXAM_SIZE.toString();
+  $("qCounter").innerText = `Question ${index + 1}`;
+  $("qNumText").innerText = `Question ${index + 1} of ${EXAM_SIZE}`;
+
+  const answered = answers.filter(v => v !== null).length;
+  $("answeredCount").innerText = answered.toString();
+
+  const score = computeScore();
+  $("scoreLive").innerText = score.toString();
+
+  if (!started) $("statusText").innerText = "Status: Not started";
+  else if (submitted) $("statusText").innerText = "Status: Submitted (locked)";
+  else $("statusText").innerText = "Status: In progress";
+}
+
+function renderNav(){
+  const nav = $("navgrid");
+  nav.innerHTML = "";
+
+  for (let i = 0; i < EXAM_SIZE; i++){
+    const btn = document.createElement("div");
+    btn.className = "navbtn";
+
+    // current highlight
+    if (i === index) btn.classList.add("current");
+
+    // status colors
+    const isAnswered = answers[i] !== null;
+    if (!submitted){
+      btn.classList.add(isAnswered ? "answered" : "unanswered");
+    } else {
+      if (!isAnswered) btn.classList.add("unanswered");
+      else btn.classList.add(answers[i] === exam[i].answer ? "correct" : "wrong");
+    }
+
+    btn.textContent = (i + 1).toString();
+    btn.addEventListener("click", () => {
+      if (!started) return;
+      index = i;
+      render();
+    });
+
+    nav.appendChild(btn);
+  }
+}
+
+function renderQuestion(){
+  $("qText").innerText = exam[index].question;
+
+  const opts = $("opts");
+  opts.innerHTML = "";
+
+  exam[index].options.forEach((optText, i) => {
+    const wrapper = document.createElement("label");
+    wrapper.className = "option";
+
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "opt";
+    input.value = i;
+
+    const txt = document.createElement("div");
+    txt.className = "txt";
+    txt.textContent = optText;
+
+    wrapper.appendChild(input);
+    wrapper.appendChild(txt);
+
+    const chosen = answers[index];
+    input.checked = chosen === i;
+    wrapper.classList.toggle("selected", chosen === i);
+
+    wrapper.addEventListener("click", () => {
+      if (!started || submitted) return;
+      answers[index] = i;
+      render();
+      $("btnSubmit").disabled = answers.filter(v => v !== null).length === 0;
+    });
+
+    opts.appendChild(wrapper);
+  });
+}
+
+function updateButtons(){
+  $("btnPrev").disabled = !started || submitted || index === 0;
+  $("btnNext").disabled = !started || submitted || index === EXAM_SIZE - 1;
+  $("btnSubmit").disabled = !started || submitted || answers.filter(v => v !== null).length === 0;
+}
+
+function render(){
+  if (!started) return;
+  renderQuestion();
+  renderNav();
+  updateCounters();
+  updateButtons();
+}
+
+function startExam(){
+  started = true;
+  submitted = false;
+  index = 0;
+  answers = new Array(EXAM_SIZE).fill(null);
+
+  $("result").style.display = "none";
+  $("result").innerHTML = "";
+  $("btnStart").disabled = true;
+
+  exam = pickExamQuestions();
+  render();
+}
+
+function next(){
+  if (!started || submitted) return;
+  if (index < EXAM_SIZE - 1){
+    index++;
+    render();
+  }
+}
+
+function prev(){
+  if (!started || submitted) return;
+  if (index > 0){
+    index--;
+    render();
+  }
+}
+
+function submitExam(){
+  if (!started || submitted) return;
+
+  submitted = true;
+  const correct = computeScore();
+  const percent = Math.round((correct / EXAM_SIZE) * 100);
+  const answered = answers.filter(v => v !== null).length;
+  const unanswered = EXAM_SIZE - answered;
+
+  $("result").style.display = "block";
+  $("result").innerHTML = `
+    <h2>Result</h2>
+    <div class="tag" style="display:inline-flex; margin-right:8px;">Score <strong style="margin-left:6px;">${correct}/${EXAM_SIZE}</strong></div>
+    <div class="tag" style="display:inline-flex;">Percentage <strong style="margin-left:6px;">${percent}%</strong></div>
+    <hr class="sep">
+    <p>Answered: <b>${answered}</b>, Unanswered: <b>${unanswered}</b></p>
+    <p class="small">50 is 100%. Percentage is correct divided by 50.</p>
+    <hr class="sep">
+    <button class="primary" onclick="newAttempt()">New attempt (random 50)</button>
+  `;
+
+  $("btnStart").disabled = false;
+  updateButtons();
+  renderNav();
+  updateCounters();
+}
+
+function newAttempt(){
+  $("btnStart").disabled = false;
+  startExam();
+}
+
+fetch("questions.json")
+  .then(res => {
+    if (!res.ok) throw new Error("Failed to load questions.json");
+    return res.json();
+  })
+  .then(data => {
+    bank = Array.isArray(data) ? data : [];
+    $("qText").textContent = `Loaded question bank: ${bank.length} questions. Click Start exam to begin.`;
+    renderNav(); // show blank nav even before start
+  })
+  .catch(() => {
+    $("qText").textContent =
+      "Could not load questions.json. Put exam.html and questions.json in the same folder and run using Live Server.";
+  });
+</script>
+</body>
+</html>
